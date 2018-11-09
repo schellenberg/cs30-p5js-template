@@ -1,10 +1,10 @@
 # Setting Up a Text Editor
 
-Although you can use any text editor you want, I will provide you with instructions for using either VS Code or Atom. Although the installation is slightly more involved, I would recommend you use VS Code, as it opens and runs significantly faster than Atom (especially noticeable if using older machines in a computer lab). The one difficulty with this in a computer lab scenario is that you may require administrator rights to install Node.js. If you cannot install Node.js, the VS Code setup will still work without Node.js, but you will lose the ability to use ESLint to give you instant feedback about possible problems in your code.
+Although you can use any text editor you want, I will provide you with instructions for using either VS Code or Atom. Although the installation is slightly more involved, I would recommend you use VS Code, as it opens and runs significantly faster than Atom (especially noticeable if using older machines in a computer lab). The one difficulty with this in a computer lab scenario is that you may require administrator rights to install Node.js. If you cannot install Node.js, the VS Code setup will still work without it, but you will lose the ability to use ESLint to give you instant feedback about possible problems in your code.
 
 ## Setting Up Visual Studio Code
 - Install Visual Studio Code
-- Install Node.js (which also installs npm -- node package manager)
+- Install Node.js from https://nodejs.org (which also installs npm -- node package manager)
   - in VS Code, open Terminal and type `npm install -g eslint`
   - if you have installation problems with eslint, you can try updating npm [in VS Code, open Terminal and type `npm install npm@latest -g`]
 
@@ -17,7 +17,7 @@ Although you can use any text editor you want, I will provide you with instructi
 
 Install the following packages (Atom Settings/Preferences -> Install):
 - p5js-snippets
-- p5js-toolbar
+- cs30-p5js-toolbar
 - atom-beautify
   - once installed, open Settings -> Packages -> atom-beautify Settings
   - select JavaScript -> Brace style -> end-expand
@@ -42,3 +42,5 @@ On Windows, add context menu to Windows Explorer by:
 - do your work
 - commit changes to GitHub
 - push your changes
+
+Following this workflow **every** time you work on your code is especially important when using GitHub at home and at school. If you forget to fetch origin before coding, and have made changes to your code on another machine, there are likely to be "clashes" in your code, which are time consuming to fix.
