@@ -33,6 +33,8 @@ module.exports = {
       //allow direct access to the DOM without errors
       "document": true,
       "window": true,  
+      "console": true,
+
       //p5js globals
       "remove": true,
       "canvas": true,
@@ -239,6 +241,8 @@ module.exports = {
       "blendMode": true,
       "arc": true,
       "ellipse": true,
+      "circle": true,
+      "square": true,
       "line": true,
       "point": true,
       "quad": true,
@@ -421,6 +425,8 @@ module.exports = {
       "createConvolver": true,
       "setBPM": true,
       "saveSound": true,
+      "userStartAudio": true,
+      "soundOut": true,
 
       //p5js dom globals
       "select": true,
