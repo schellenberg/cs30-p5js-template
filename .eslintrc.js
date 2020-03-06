@@ -35,7 +35,16 @@ module.exports = {
       "window": true,  
       "console": true,
 
+      //allow timing functions in JS
+      "setTimeout": true,
+      "setInterval": true,
+
       //p5js globals
+      "storeItem": true,
+      "getItem": true,
+      "clearStorage": true,
+      "removeItem": true,
+      
       "remove": true,
       "canvas": true,
       "width": true,
@@ -448,6 +457,25 @@ module.exports = {
       "VIDEO": true,
       "AUDIO": true,
       "createCapture": true,
-      "createElement": true
+      "createElement": true,
+
+      //p5js.collide globals
+      "collidePointPoint": true,
+      "collidePointCircle": true,
+      "collidePointEllipse": true,
+      "collidePointLine": true,
+      "collidePointArc": true,
+      "collideRectRect": true,
+      "collideCircleCircle": true,
+      "collideRectCircle": true,
+      "collideLineLine": true,
+      "collideLineCircle": true,
+      "collideLineRect": true,
+      "collidePointPoly": true,
+      "collideCirclePoly": true,
+      "collideRectPoly": true,
+      "collideLinePoly": true,
+      "collidePolyPoly": true,
+      "collidePointTriangle": true
   },
 }
