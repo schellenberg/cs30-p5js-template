@@ -463,6 +463,7 @@ module.exports = {
       "collidePointPoint": true,
       "collidePointCircle": true,
       "collidePointEllipse": true,
+      "collidePointRect": true,
       "collidePointLine": true,
       "collidePointArc": true,
       "collideRectRect": true,
